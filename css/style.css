@@ -1,0 +1,391 @@
+/* prewed */
+/* variable */
+:root {
+  --pinkHero: #fdf0ec;
+  --namaMempelai: #ad9347;
+  --merahMarun: #542726;
+}
+.bingkai {
+  position: relative;
+  z-index: 2;
+}
+.bingkai .img-bingkai {
+  width: 360px;
+  height: 360px;
+}
+.bingkai::before {
+  content: '';
+  position: absolute;
+  width: 260px;
+  height: 260px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-45%, -50%);
+  background-image: url('/img/pp-prewed.png');
+  z-index: -1;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+}
+.hero {
+  min-height: 100vh;
+  background-color: var(--pinkHero);
+}
+.hero h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 6em;
+  color: var(--namaMempelai);
+}
+.hero h4 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1em;
+  color: var(--merahMarun);
+}
+.hero h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+  color: var(--merahMarun);
+}
+.hero p {
+  font-family: 'Poppins', sans-serif;
+  color: var(--merahMarun);
+  font-size: 1em;
+}
+.hero a {
+  color: var(--pinkHero);
+  background-color: var(--namaMempelai);
+}
+.hero a:hover {
+  color: var(--namaMempelai);
+  background-color: var(--pinkHero);
+  border: 1px solid var(--namaMempelai);
+}
+
+/* Undangan */
+.hero-undangan {
+  background-color: var(--pinkHero);
+  min-height: 100vh;
+}
+.hero-undangan .kotak-gambar {
+  border-top: 5px solid var(--namaMempelai);
+  border-bottom: 5px solid var(--namaMempelai);
+  position: relative;
+  z-index: 2;
+  min-height: 80vh;
+  top: 6em;
+}
+.kotak-gambar::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: url('/img/bg-1.png');
+  z-index: -1;
+  opacity: 0.5;
+}
+.hero-undangan h1 {
+  font-family: 'Cookie', cursive;
+  color: var(--merahMarun);
+  font-weight: bold;
+  font-size: 5em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.hero-undangan h4 {
+  font-family: 'Lumanosimo', cursive;
+  color: var(--merahMarun);
+  font-weight: bold;
+  font-size: 1.5em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.content {
+  background-color: var(--pinkHero);
+  min-height: 2000px;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+.content .salam {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  color: #542726;
+  margin-bottom: 5em;
+}
+.kotak-pr,
+.kotak-lk {
+  border: 4px double var(--merahMarun);
+  border-radius: 6em 6em 2em 2em;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), 0 0 5px 4px var(--namaMempelai), 2px 2px 4px rgba(0, 0, 0, 0.5);
+  padding: 2em;
+}
+
+.nama {
+  font-family: 'Cookie', cursive;
+  color: var(--merahMarun);
+  font-weight: bold;
+  font-weight: bold;
+  font-size: 4em;
+}
+.dan {
+  font-family: 'Lumanosimo', cursive;
+  font-weight: bold;
+  font-size: 6em;
+  color: #542726;
+  text-shadow: 0 5px 4px var(--namaMempelai);
+}
+
+.foto img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 4em;
+  margin-top: 2em;
+  /* border: 4px solid #ad9347; */
+  border-right: 4px solid var(--merahMarun);
+  border-top: 4px solid var(--merahMarun);
+  border-left: 4px solid var(--namaMempelai);
+  border-bottom: 4px solid var(--namaMempelai);
+}
+.ortu {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  color: #542726;
+}
+.line-1 {
+  border: 4px double var(--namaMempelai);
+  margin-top: 5em;
+}
+.p-2 {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  color: #542726;
+  margin-bottom: 5em;
+  margin-top: 7em;
+}
+.line-2 {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+}
+.line-left,
+.line-right {
+  border-top: 4px dashed var(--merahMarun);
+  width: 100%;
+  margin-top: 10px;
+}
+.circle {
+  border-radius: 50%;
+  border: 4px solid var(--merahMarun);
+  width: 50px;
+  height: 30px;
+  margin-right: 1em;
+  margin-left: 1em;
+}
+.kotak-akad,
+.kotak-resepsi {
+  border: 4px double var(--merahMarun);
+  border-radius: 2em 2em 2em 2em;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), 0 0 5px 4px var(--namaMempelai), 2px 2px 4px rgba(0, 0, 0, 0.5);
+  padding: 2em;
+  margin-top: 3em;
+  margin-right: 2em;
+  margin-left: 2em;
+}
+label {
+  font-family: 'Lumanosimo', cursive;
+  font-weight: bold;
+  font-size: 2em;
+  color: #542726;
+}
+.waktu-nikah {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.8em;
+}
+.waktu-nikah .date {
+  background-color: #542726;
+  color: var(--pinkHero);
+  padding: 1.5em;
+  border-radius: 10px;
+}
+.waktu-nikah .day-time {
+  padding-top: 3.3em;
+  border-radius: 10px;
+}
+.date h4 {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.alamat {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  color: #542726;
+  margin-top: 2em;
+}
+.last-kotak {
+  border: 4px solid var(--merahMarun);
+  margin-top: 8em;
+  border-radius: 15px;
+  margin-right: 12em;
+  margin-left: 12em;
+}
+.last-kotak .subject,
+.ucapan {
+  font-family: 'Cookie', cursive;
+  font-size: 5em;
+  color: #542726;
+  font-weight: bold;
+  margin-top: 0.5em;
+}
+.button-wa {
+  color: var(--pinkHero);
+  background-color: var(--merahMarun);
+  border: 0;
+  border-radius: 5px;
+  padding: 0.5em;
+  font-family: 'Poppins', sans-serif;
+}
+.button-wa:hover {
+  color: var(--namaMempelai);
+  background-color: var(--pinkHero);
+  border: 1px solid var(--namaMempelai);
+}
+form {
+  font-family: 'Poppins', sans-serif;
+}
+.salam-penutup {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  padding: 5px;
+}
+.penutup {
+  font-family: 'Cookie', cursive;
+  font-size: 4em;
+  color: #542726;
+  font-weight: bold;
+}
+.space {
+  height: 40px;
+}
+.footer {
+  background-color: #542726;
+  height: 60px;
+  width: 100%;
+}
+
+/* end Udangan */
+/* Media Query */
+/* Dekstop */
+@media (max-width: 992px) {
+  .simply-countdown > .simply-section {
+    padding: 70px;
+    margin: 10px;
+  }
+}
+/* Tablet */
+@media (max-width: 768px) {
+  .simply-countdown > .simply-section {
+    padding: 60px;
+    margin: 5px;
+  }
+  .last-kotak {
+    border: 4px solid var(--merahMarun);
+    margin-top: 8em;
+    border-radius: 80px;
+    margin-right: 1em;
+    margin-left: 1em;
+  }
+  .last-kotak .subject,
+  .ucapan {
+    font-family: 'Cookie', cursive;
+    font-size: 2em;
+    color: #542726;
+    font-weight: bold;
+    margin-top: 0.5em;
+  }
+  .button-wa {
+    color: var(--pinkHero);
+    background-color: var(--merahMarun);
+    border: 0;
+    border-radius: 5px;
+    padding: 0.5em;
+    font-family: 'Poppins', sans-serif;
+  }
+  .button-wa:hover {
+    color: var(--namaMempelai);
+    background-color: var(--pinkHero);
+    border: 1px solid var(--namaMempelai);
+  }
+  form {
+    font-family: 'Poppins', sans-serif;
+    font-size: 60%;
+  }
+  .salam-penutup {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    padding: 5px;
+  }
+  .penutup {
+    font-family: 'Cookie', cursive;
+    font-size: 2em;
+    color: #542726;
+    font-weight: bold;
+  }
+}
+/* Mobile Phone */
+@media (max-width: 576px) {
+  .last-kotak {
+    border: 4px solid var(--merahMarun);
+    margin-top: 8em;
+    border-radius: 80px;
+    margin-right: 1em;
+    margin-left: 1em;
+  }
+  .last-kotak .subject,
+  .ucapan {
+    font-family: 'Cookie', cursive;
+    font-size: 2em;
+    color: #542726;
+    font-weight: bold;
+    margin-top: 0.5em;
+  }
+  .button-wa {
+    color: var(--pinkHero);
+    background-color: var(--merahMarun);
+    border: 0;
+    border-radius: 5px;
+    padding: 0.5em;
+    font-family: 'Poppins', sans-serif;
+  }
+  .button-wa:hover {
+    color: var(--namaMempelai);
+    background-color: var(--pinkHero);
+    border: 1px solid var(--namaMempelai);
+  }
+  form {
+    font-family: 'Poppins', sans-serif;
+    font-size: 60%;
+  }
+  .salam-penutup {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    padding: 5px;
+  }
+  .penutup {
+    font-family: 'Cookie', cursive;
+    font-size: 2em;
+    color: #542726;
+    font-weight: bold;
+  }
+  
+}
+/* font-family: 'Lumanosimo', cursive;
+font-family: 'Poppins', sans-serif; 
+  font-family: 'Cookie', cursive;
+*/
