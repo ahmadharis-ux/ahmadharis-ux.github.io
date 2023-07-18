@@ -1,0 +1,9 @@
+.bg{
+    position: relative;
+    width: 100%;
+    padding-top: 177.77%; /* Resolusi 9:16 */
+    background-image: url('/img/bg/mobile/bg-mobile-1.png');
+    /* background: blue; */
+    background-size: cover;
+    background-position: center;
+}
