@@ -6,14 +6,14 @@
   margin: auto;
 }
 .simply-countdown > .simply-section {
-  width: 20px;
-  height: 20px;
-  padding: 20px;
+  width: 25px;
+  height: 25px;
+  padding: 25px;
   display: flex;
   align-items: center;
   justify-content: center;
   float: left;
-  margin: 15px;
+  margin: 5px;
   background: var(--namaMempelai);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   border-radius: 50%;
