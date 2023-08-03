@@ -63,7 +63,7 @@ body {
 .row-card-4,
 .row-card-2 {
   height: 8rem;
-  width: 13rem;
+  width: 30rem;
   border-radius: 10px;
   cursor: pointer;
 }
@@ -80,7 +80,7 @@ body {
   background-color: #1877dc;
 }
 .space {
-  margin: 2rem;
+  margin: .5rem;
 }
 .footer {
     position: fixed;
