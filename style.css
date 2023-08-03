@@ -92,6 +92,7 @@ body {
     color: white;
     text-align: center;
     display: flex;
+    padding: 5px;
  }
  .footer > .home,.notif,.theme,.users,.login{
     width: 3rem;
