@@ -98,7 +98,7 @@ body {
  .footer > .home,.notif,.theme,.users,.login{
     width: 8rem;
  }
- .home{
+ /* .home{
     margin-left: 1rem;
     margin-right: 4rem;
  }
@@ -113,4 +113,4 @@ body {
  }
  .login{
     margin-right: 1rem;
- }
+ } */
