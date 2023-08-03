@@ -5,11 +5,9 @@
         height: 5rem;
     }
 } */
-/* .div{
-    border: 1px solid white;
-    width: 600px;
-    bottom: 10px;
-} */
+.div{
+    bottom: 10rem;
+}
 body {
   background-color: #383b3a;
   max-width: 500px;
