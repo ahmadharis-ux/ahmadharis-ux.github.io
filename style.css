@@ -82,14 +82,10 @@ body {
     position: fixed;
     left: 0;
     bottom: 0;
-    width: 100%;
+    width: 500px;
     height: 5rem;
     background-color: rgb(137, 137, 137);
     color: white;
     text-align: center;
     display: flex;
-    padding: 5px;
- }
- .footer > .home,.notif,.theme,.users,.login{
-    width: 3rem;
  }
