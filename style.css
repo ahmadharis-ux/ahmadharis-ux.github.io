@@ -65,7 +65,7 @@ body {
 .row-card-4,
 .row-card-2 {
   height: 8rem;
-  width: 10rem;
+  width: 13rem;
   border-radius: 10px;
   cursor: pointer;
 }
@@ -98,19 +98,3 @@ body {
  .footer > .home,.notif,.theme,.users,.login{
     width: 100%;
  }
- /* .home{
-    margin-left: 1rem;
-    margin-right: 4rem;
- }
- .users{
-    margin-right: 4rem;
- }
- .theme{
-    margin-right: 4rem;
- }
- .notif{
-    margin-right: 4rem;
- }
- .login{
-    margin-right: 1rem;
- } */
