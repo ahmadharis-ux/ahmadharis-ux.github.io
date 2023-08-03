@@ -96,7 +96,7 @@ body {
     display: flex;
  }
  .footer > .home,.notif,.theme,.users,.login{
-    width: 3rem;
+    width: 8rem;
  }
  .home{
     margin-left: 1rem;
