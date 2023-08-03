@@ -5,9 +5,6 @@
         height: 5rem;
     }
 } */
-.div{
-    bottom: 10rem;
-}
 body {
   background-color: #383b3a;
   max-width: 500px;
@@ -17,7 +14,7 @@ body {
 .header {
   background-color: #18d784;
   height: 12rem;
-  border-radius: 0 0 3rem 3rem;
+  border-radius: 0 0 2rem 2rem;
   z-index: 1;
   position: relative;
 }
@@ -27,7 +24,7 @@ body {
   height: 11rem;
   border-radius: 1rem;
   position: relative;
-  margin: -6.5em 4rem;
+  margin: -6.5em 2rem;
   display: flex;
 }
 .label {
@@ -40,15 +37,14 @@ body {
 }
 .cate {
   margin-top: 8rem;
-  margin-left: 4rem;
+  margin-left: 2rem;
   font-family: 'Poppins', sans-serif;
   color: #95e1c0;
   font-weight: bold;
 }
 .col-card {
-  height: 11rem;
-  margin-left: 4rem;
-  margin-right: 4rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 .row {
   display: flex;
@@ -63,7 +59,7 @@ body {
 .row-card-4,
 .row-card-2 {
   height: 8rem;
-  width: 30rem;
+  width: 50rem;
   border-radius: 10px;
   cursor: pointer;
 }
