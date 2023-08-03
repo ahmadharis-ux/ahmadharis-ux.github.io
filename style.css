@@ -1,0 +1,126 @@
+/* @media (max-width: 768px) {
+    
+    .header{
+        background-color: #59DDA4;
+        height: 5rem;
+    }
+} */
+/* .div{
+    border: 1px solid white;
+    width: 600px;
+    bottom: 10px;
+} */
+body {
+  background-color: #383b3a;
+  max-width: 500px;
+  padding: 0;
+  margin: 0;
+}
+.header {
+  background-color: #18d784;
+  height: 12rem;
+  border-radius: 0 0 3rem 3rem;
+  z-index: 1;
+  position: relative;
+}
+.card-1 {
+  z-index: 2;
+  background-color: #9f17d0;
+  height: 11rem;
+  border-radius: 1rem;
+  position: relative;
+  margin: -6.5em 4rem;
+  display: flex;
+}
+.label {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  margin-left: 1.8rem;
+}
+.signal{
+    width: 1rem ;
+    margin-top: 2rem;
+    margin-left: 7rem;
+}
+.mail{
+    width: 8rem ;
+    margin-top: -1rem;
+    margin-left: 1rem;
+}
+.cate {
+  margin-top: 8rem;
+  margin-left: 4rem;
+  font-family: 'Poppins', sans-serif;
+  color: #95e1c0;
+  font-weight: bold;
+}
+.col-card {
+  height: 11rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+.row > .row-card-1,
+.row-card-3,
+.row-card-4,
+.row-card-2 {
+  height: 8rem;
+  width: 10rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.row-card-1 {
+  background-color: #cf3b67;
+}
+.row-card-2 {
+  background-color: #c7803e;
+}
+.row-card-3 {
+  background-color: #dfbc0e;
+}
+.row-card-4 {
+  background-color: #1877dc;
+}
+.space {
+  margin: 2rem;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5rem;
+    background-color: rgb(137, 137, 137);
+    color: white;
+    text-align: center;
+    display: flex;
+ }
+ .footer > .home,.notif,.theme,.users,.login{
+    width: 3rem;
+ }
+ .home{
+    margin-left: 1rem;
+    margin-right: 4rem;
+ }
+ .users{
+    margin-right: 4rem;
+ }
+ .theme{
+    margin-right: 4rem;
+ }
+ .notif{
+    margin-right: 4rem;
+ }
+ .login{
+    margin-right: 1rem;
+ }
