@@ -1,92 +1,80 @@
-/* @media (max-width: 768px) {
-    
-    .header{
-        background-color: #59DDA4;
-        height: 5rem;
-    }
-} */
-body {
-  background-color: #383b3a;
-  max-width: 500px;
-  max-height: max-content;
-  padding: 0;
-  margin: 0;
+:root{
+  --pink: #f14e95;
+  --bg: #0a0a0a;
+  --shadow:0 2px 2px rgba(0 0 0 / 0.5);
 }
-.header {
-  background-color: #18d784;
-  height: 12rem;
-  border-radius: 0 0 2rem 2rem;
-  z-index: 1;
+body{
+  font-size: 1.2rem;
+  font-family: 'Poppins', sans-serif;
+  min-height: 2000px;
+}
+.hero::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url(img/bg-prewed.jpg);
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  filter: grayscale();
+}
+.hero{
   position: relative;
+  min-height: 100vh;
 }
-.card-1 {
-  z-index: 2;
-  background-color: #9f17d0;
-  height: 11rem;
-  border-radius: 1rem;
-  position: relative;
-  margin: -6.5em 2rem;
-  display: flex;
+.hero h1, .hero h4, .hero p{
+  text-shadow: var(--shadow);
 }
-.label {
-  font-family: 'Poppins', sans-serif;
-  font-weight: bold;
-  text-align: center;
+.hero h1{
+  font-family: 'Sacramento', cursive;
+  font-size: 6rem;
+}
+.hero h4{
+  font-size: 1.6rem;
+}
+.hero p{
+  font-size: 1.4rem;
+}
+.hero a{
+  color:var(--pink);
+  background-color: white;
+  box-shadow: var(--shadow);
+}
+.hero a:hover{
+  background-color: var(--pink);
   color: white;
-  font-size: 2rem;
-  margin-left: 1.8rem;
 }
-.cate {
-  margin-top: 8rem;
-  margin-left: 2rem;
-  font-family: 'Poppins', sans-serif;
-  color: #95e1c0;
-  font-weight: bold;
-}
-.col-card {
-  margin-left: 2rem;
-  margin-right: 2rem;
-}
-.row {
-  display: flex;
-  justify-content: center;
-  color: white;
-  font-family: 'Poppins', sans-serif;
-  font-weight: bold;
-  text-align: center;
-}
-.row > .row-card-1,
-.row-card-3,
-.row-card-4,
-.row-card-2 {
-  height: 8rem;
-  width: 50rem;
-  border-radius: 10px;
-  cursor: pointer;
-}
-.row-card-1 {
-  background-color: #cf3b67;
-}
-.row-card-2 {
-  background-color: #c7803e;
-}
-.row-card-3 {
-  background-color: #dfbc0e;
-}
-.row-card-4 {
-  background-color: #1877dc;
-}
-.space {
-  margin: .5rem;
-}
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 5rem;
-    background-color: rgb(137, 137, 137);
-    color: white;
-    text-align: center;
-    
+
+/* Media Query */
+/* Laptop */
+@media (max-width: 992px){
+ html{
+  font-size: 75%;
  }
+ .hero .simply-countdown > .simply-section {
+  padding: 70px;
+ }
+}
+/* Tablet */
+@media (max-width: 768px){
+  html{
+    font-size: 65%;
+  }
+  .hero .simply-countdown > .simply-section {
+    padding: 60px;
+    margin: 5px;
+   }
+}
+/* Mobile */
+@media (max-width: 576px){
+  html{
+    font-size: 60%;
+  }
+  .hero .simply-countdown > .simply-section {
+    padding: 45px;
+    margin: 3px;
+   }
+}
