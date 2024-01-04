@@ -40,7 +40,7 @@
           <a href="#"><i class="bx bxl-instagram-alt"></i></a>
           <a href="#"><i class="bx bxl-linkedin"></i></a>
         </div>
-        <a href="#" class="btn">Download CV</a>
+        <a href="#" class="btn" onclick="downloadPDF()">Download CV</a>
       </div>
       <div class="home-img">
         <img src="image/home.png" alt="" />
@@ -173,5 +173,33 @@ companies need.  </p>
 
     <!-- custom js -->
     <script src="js/script.js"></script>
+     <script>
+      function downloadPDF() {
+        // Ganti nama file dan path sesuai dengan struktur folder project Anda
+        var fileName = 'ahmad_haris_cv.pdf';
+        var filePath = 'image/' + fileName;
+
+        // Buat elemen <a> untuk menginisialisasi proses download
+        var link = document.createElement('a');
+
+        // Atur atribut href ke path file
+        link.href = filePath;
+
+        // Atur atribut download dengan nama file yang diinginkan
+        link.download = fileName;
+
+        // Sembunyikan elemen <a> dari tampilan
+        link.style.display = 'none';
+
+        // Tambahkan elemen <a> ke dalam DOM
+        document.body.appendChild(link);
+
+        // Klik pada elemen <a> untuk memulai proses download
+        link.click();
+
+        // Hapus elemen <a> dari DOM setelah proses download selesai
+        document.body.removeChild(link);
+      }
+    </script>
   </body>
 </html>
